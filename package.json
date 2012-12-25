@@ -1,0 +1,29 @@
+{
+  "name": "trackdb",
+  "description": "import iTunes to MongoDB",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ksuayan/trackdb/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ksuayan/trackdb.git"
+  },
+  "author": "Kyo Suayan <ksuayan@gmail.com> (https://github.com/ksuayan/)",
+  "keywords": [
+    "mongoose",
+    "nodejs"
+  ],
+  "main": "./scripts/itunes.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "plist-to-json" : ">=1.0.2",
+    "mongoose": ">=2.5.10"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=0.4"
+  },
+  "optionalDependencies": {}
+}
