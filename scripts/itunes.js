@@ -21,8 +21,9 @@ var onConnection = function() {
 	  		if (err) return handleError(err);
 		});
 	};
-	mongoose.connection.close();
-	process.exit(code=0);
+
+//	mongoose.connection.close();
+//	process.exit(code=0);
 };
 
 var iTunesDB = function(){
