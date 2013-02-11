@@ -8,17 +8,14 @@
     "url": "git://github.com/ksuayan/trackdb.git"
   },
   "author": "Kyo Suayan <ksuayan@gmail.com> (https://github.com/ksuayan/)",
-  "keywords": [
-    "mongoose",
-    "nodejs"
-  ],
+  "keywords": ["mongoose","nodejs"],
   "main": "./scripts/itunes.js",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
     "plist-to-json" : ">=1.0.2",
-    "mongoose": "2.5.10"
+    "mongoose": "3.5.5"
   },
   "devDependencies": {
   },
